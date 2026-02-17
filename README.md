@@ -7,7 +7,7 @@ git clone https://github.com/mega1906/OOPS_BannerApp.git
 cd OOPS_BannerApp
 
 #### Create .gitignore file and edit it
-echo > .gitignore
+echo > .gitignore   
 echo "*.class" >> .gitignore
 
 #### Commit
@@ -19,3 +19,10 @@ git push origin main
 #### Compiler and Run java code
 javac Message.java   
 java Message
+
+### Use Case 
+#### UC0
+Git Setup   
+Creating branches and Merging them
+#### UC1
+Print OOPS Banner in JAVA
