@@ -28,6 +28,8 @@ Creating branches and Merging them
 Print OOPS
 #### UC2
 Print OOPS Banner in Java using System.out.println
+#### UC3   
+Print OOPS Banner in Java using String.join()
 
 #### Checkout and Merge
 git checkout -b <branch-name>    
@@ -38,10 +40,13 @@ git push origin <branch-name>
 git checkout <branch-name>    
 git pull origin <branch-name>    
 git merge <merge-branch-name>      
-git push <branch-name>   
+git push origin <branch-name>   
 
 #### Switch branches
-git switch <branch-name>   
+git switch <branch-name>  
+
+#### Delete a branch
+git branch -d <branch-name> or git branch -D <branch-name>    
 
 ### Data Types
 BB SC IF LD   
